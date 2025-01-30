@@ -2,7 +2,7 @@ import React, { FC } from 'react';
 
 import styles from './CheckItem.module.scss';
 
-import { InitState, InitStateTypes } from '../../redux/cartSlice/types';
+import { InitState } from '../../redux/cartSlice/types';
 
 import lArrow from '../../assets/down-arrow.png';
 import { Link } from 'react-router-dom';
