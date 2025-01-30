@@ -1,5 +1,10 @@
 const data = [
-    { id: 1, name: 'Data', description: 'desc' },
+    {
+        id: 1,
+        name: 'Data',
+        description:
+            'descffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffdescffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffdescffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffdescffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff',
+    },
     { id: 2, name: 'UI/UX Design', description: 'desc' },
     { id: 3, name: 'Android Development', description: 'desc' },
     { id: 4, name: 'QA', description: 'desc' },

@@ -7,11 +7,13 @@ body {
 }
 
 .layout {
+    position: relative;
+    z-index: 5;
     background-color: $bgcolor;
     width: 450px;
     height: 950px;
     border-radius: 30px;
-    // animation: bg 1s linear 0.2s forwards;
+    // animation: bg 1s forwards 1s;
 
     // @keyframes bg {
     //     to {
@@ -85,6 +87,7 @@ body {
         &--block-one__item {
             display: flex;
             justify-content: space-between;
+
             &:nth-child(1) {
                 position: relative;
                 left: 30px;
@@ -117,6 +120,7 @@ body {
                 display: flex;
                 color: $bgcolor;
                 cursor: pointer;
+                text-decoration: none;
 
                 transition: 0.3s ease;
 
@@ -130,6 +134,8 @@ body {
                     padding: 70px 0 0 15px;
                     font-weight: 700;
                     font-size: 20px;
+                    text-decoration: none;
+                    word-break: break-word;
                 }
             }
             &:nth-child(4) {
@@ -151,6 +157,7 @@ body {
                 width: 110px;
                 color: $bgcolor;
                 display: flex;
+                text-decoration: none;
 
                 transition: 0.3s ease;
 
@@ -160,10 +167,11 @@ body {
                 }
 
                 span {
-                    margin: 40px 0 0 10px;
+                    margin: 20px 0 0 10px;
                     font-weight: bold;
                     word-break: break-word;
-                    font-size: 14px;
+                    font-size: 13px;
+                    text-decoration: none;
                 }
             }
         }
@@ -190,6 +198,7 @@ body {
                 border-radius: 20px;
                 display: flex;
                 color: $bgcolor;
+                text-decoration: none;
 
                 transition: 0.3s ease;
 
@@ -203,6 +212,7 @@ body {
                     font-weight: 700;
                     font-size: 14px;
                     word-break: break-word;
+                    text-decoration: none;
                 }
             }
 
@@ -215,6 +225,7 @@ body {
                 width: 150px;
                 display: flex;
                 color: $bgcolor;
+                text-decoration: none;
 
                 transition: 0.3s ease;
 
@@ -227,6 +238,7 @@ body {
                     margin: 85px 0 0 15px;
                     font-weight: 700;
                     font-size: 20px;
+                    text-decoration: none;
                 }
             }
             &:nth-child(4) {
@@ -262,6 +274,7 @@ body {
                 width: 190px;
                 display: flex;
                 color: $bgcolor;
+                text-decoration: none;
 
                 transition: 0.3s ease;
 
@@ -271,9 +284,11 @@ body {
                 }
 
                 span {
-                    margin: 90px 0 0 20px;
+                    margin: 40px 0 0 20px;
                     font-weight: 700;
-                    font-size: 28px;
+                    font-size: 22px;
+                    text-decoration: none;
+                    word-break: break-word;
                 }
             }
 
@@ -287,6 +302,7 @@ body {
                 border-radius: 20px;
                 display: flex;
                 color: $bgcolor;
+                text-decoration: none;
 
                 transition: 0.3s ease;
 
@@ -300,6 +316,7 @@ body {
                     font-weight: 700;
                     font-size: 13px;
                     word-break: break-word;
+                    text-decoration: none;
                 }
             }
 
@@ -312,6 +329,7 @@ body {
                 width: 110px;
                 display: flex;
                 color: $bgcolor;
+                text-decoration: none;
 
                 transition: 0.3s ease;
 
@@ -324,6 +342,7 @@ body {
                     margin: 50px 0 0 10px;
                     font-weight: 700;
                     font-size: 13px;
+                    text-decoration: none;
                 }
             }
         }
@@ -340,14 +359,14 @@ body {
                 color: $bgcolor;
 
                 transition: 0.3s ease;
-
+                text-decoration: none;
                 &:hover {
                     width: 125px;
                     height: 125px;
                 }
 
                 span {
-                    margin: 70px 0 0 8px;
+                    margin: 40px 0 0 8px;
                     font-weight: 700;
                     font-size: 14px;
                 }

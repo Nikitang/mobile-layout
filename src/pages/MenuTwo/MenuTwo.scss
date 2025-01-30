@@ -117,6 +117,7 @@ body {
                 display: flex;
                 color: $bgcolor;
                 cursor: pointer;
+                text-decoration: none;
 
                 transition: 0.3s ease;
 
@@ -151,6 +152,7 @@ body {
                 width: 110px;
                 color: $bgcolor;
                 display: flex;
+                text-decoration: none;
 
                 transition: 0.3s ease;
 
@@ -162,6 +164,7 @@ body {
                 span {
                     margin: 50px 0 0 10px;
                     font-weight: bold;
+                    word-break: break-word;
                 }
             }
         }
@@ -188,6 +191,7 @@ body {
                 border-radius: 20px;
                 display: flex;
                 color: $bgcolor;
+                text-decoration: none;
 
                 transition: 0.3s ease;
 
@@ -200,6 +204,7 @@ body {
                     margin: 35px 0 0 15px;
                     font-weight: 700;
                     font-size: 16px;
+                    word-break: break-word;
                 }
             }
 
@@ -212,6 +217,7 @@ body {
                 width: 150px;
                 display: flex;
                 color: $bgcolor;
+                text-decoration: none;
 
                 transition: 0.3s ease;
 
@@ -259,6 +265,7 @@ body {
                 width: 190px;
                 display: flex;
                 color: $bgcolor;
+                text-decoration: none;
 
                 transition: 0.3s ease;
 
@@ -268,9 +275,10 @@ body {
                 }
 
                 span {
-                    margin: 90px 0 0 20px;
+                    margin: 70px 0 0 20px;
                     font-weight: 700;
                     font-size: 28px;
+                    word-break: break-word;
                 }
             }
 
@@ -284,6 +292,7 @@ body {
                 border-radius: 20px;
                 display: flex;
                 color: $bgcolor;
+                text-decoration: none;
 
                 transition: 0.3s ease;
 
@@ -309,6 +318,7 @@ body {
                 width: 110px;
                 display: flex;
                 color: $bgcolor;
+                text-decoration: none;
 
                 transition: 0.3s ease;
 
@@ -321,6 +331,7 @@ body {
                     margin: 60px 0 0 10px;
                     font-weight: 700;
                     font-size: 12px;
+                    word-break: break-word;
                 }
             }
         }
@@ -335,6 +346,7 @@ body {
                 width: 120px;
                 display: flex;
                 color: $bgcolor;
+                text-decoration: none;
 
                 transition: 0.3s ease;
 
